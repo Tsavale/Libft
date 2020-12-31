@@ -67,5 +67,6 @@ void			*ft_calloc(size_t nmenb, size_t size);
 char			**ft_split(char const *s, char c);
 size_t			ft_strlcpy(char *dest, const char *src, size_t dstsize);
 char			*ft_strmapi(char const *s, char (*f)(unsigned int, char));
+char			*ft_utoa_base(unsigned long n, const char *base);
 
 #endif
